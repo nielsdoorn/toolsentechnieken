@@ -1,4 +1,4 @@
-# THE FAPPINING
+# COOL
 
 if (cool === 1){
 nice
