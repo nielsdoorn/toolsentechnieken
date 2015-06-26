@@ -1,5 +1,5 @@
 class CreateTools < ActiveRecord::Migration
-  def change
+  def up
     create_table :tools do |t|
       t.string :title
       t.string :subtitle
@@ -8,5 +8,9 @@ class CreateTools < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+  end
+
+  def down
+    drop_table :tools
   end
 end
