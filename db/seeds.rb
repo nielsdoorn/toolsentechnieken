@@ -19,3 +19,12 @@ if Tool.count == 0
     link: 'http://www.git-tower.com',
   })
 end
+
+if Technique.count == 0
+  Technique.create({
+    title: 'Github',
+    subtitle: 'Build software better, together.',
+    description: 'Powerful collaboration, code review, and code management for open source and private projects. Need private repositories? Upgraded plans start at $7/mo.',
+    link: 'http://www.github.com',
+  })
+end
