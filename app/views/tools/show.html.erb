@@ -1,0 +1,10 @@
+<h1><%= @tool.title %></h1>
+<small><%= @tool.subtitle %></small>
+
+<p>
+  <%= @tool.description %><br>
+
+  Voor meer informatie, ga naar: <%= link_to @tool.link, @tool.link %>
+</p>
+
+<%= link_to 'Back', tools_path %>

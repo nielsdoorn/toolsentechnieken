@@ -1,2 +1,6 @@
 <% @page_title = 'Tools' %>
 <h1>tools gedeeltuhhh</h1>
+
+<% @tools.each do |tool| %>
+  <%= link_to tool.title, tool_path(tool.id) %>
+<% end %>
