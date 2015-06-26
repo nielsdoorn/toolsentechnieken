@@ -1,6 +1,6 @@
 require "rails_helper"
 
-feature 'Tool Page' do
+RSpec.describe Tool, :type => :feature do
   describe 'index' do
     it 'should show a list of tools' do
       5.times { FactoryGirl.create :tool, title: 'A special title for a special page' }
