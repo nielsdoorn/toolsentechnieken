@@ -1,6 +1,6 @@
 <% @page_title = 'Techniques' %>
 <h1>Techniques :)</h1>
 
-<% @technique.each do |technique| %>
+<% @techniques.each do |technique| %>
   <%= link_to technique.title, technique_path(technique.id) %>
 <% end %>

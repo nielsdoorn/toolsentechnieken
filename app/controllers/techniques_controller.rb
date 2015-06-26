@@ -1,6 +1,6 @@
 class TechniquesController < ApplicationController
   def index
-    @technique = Technique.all
+    @techniques = Technique.all
   end
 
   def show
