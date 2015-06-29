@@ -1,0 +1,10 @@
+<h1><%= @technique.title %></h1>
+<small><%= @technique.subtitle %></small>
+
+<p>
+  <%= @technique.description %><br>
+
+  Voor meer informatie, ga naar: <%= link_to @technique.link, @technique.link %>
+</p>
+
+<%= link_to 'Back', techniques_path %>
